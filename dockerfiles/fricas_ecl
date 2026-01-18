@@ -5,6 +5,7 @@ RUN apt-get update && apt-get upgrade -y && \
     apt-get install -y --no-install-recommends \
     apt-utils \
     ecl \
+    libffi-dev \
     git \
     ca-certificates \
     build-essential \
